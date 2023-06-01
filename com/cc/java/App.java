@@ -8,7 +8,9 @@ public class App {
     // Test --> Referenztyp (reference type)
     // Object <--> Instanz
 
-    Test test  = new Test();
+    //das kleine test enthält die Ram Adresse, ist Referenzvariable, vrgl mit this als Instanzvariable
+
+    Test test  = new Test(); // mit new Default Constructor aufrufen, damit Objekt anlegen
     System.out.println("Referenzvariable: " + test);
     test.showAddress();
 
